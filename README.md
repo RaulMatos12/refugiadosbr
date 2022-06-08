@@ -5,7 +5,7 @@ Professor: Ricardo Mendes Costa Segundo
 
 Turma: CC1M
 
-link da pagina: https://raulmatos12.github.io/refugiadosbr/
+link da página: https://raulmatos12.github.io/refugiadosbr/
 
 A ideia que tive para fazer o site de refugiados é fazer um tema do Brasil, esse site é para brasileiros que querem hospedar um refugiado.
 
