@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Site Refugiada</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<header>
+<img src="logoprojeto.png" alt="Logo site">
+<img src="bandeira-do-brasil.webp" alt="Logo site">
+<img src="nft-bandeira-ucrania.webp" alt="Logo site">
+<nav>
+<ul>
+<li class="li12"><a href="#cadastro"><b>Cadastrar</b></a></li>
+<li class="li12" onclick="logar()"><a href="#"><b>Logar</b></a></li>
+<li class="li3"><a href="#"><b>Faça doação</b></a></li>
+</ul>
+</nav>
+</header>
+<div class="area-login">
+<div class="login">         
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="logo">
+  </div>     
+    <form method="POST" id="velha" action="#"> 
+    <input id="e-mail" type="email" name="e-mail" placeholder="insira seu e-mail" autofocus>
+    <input id="senha" type="password" name="senha" placeholder="insira sua senha">
+    <input onclick="verificar()" type="submit" value="entrar">
+    </form>
+    <p>Ainda não tem uma conta?<a href="log.html" class="c4">Crie uma conta</a></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

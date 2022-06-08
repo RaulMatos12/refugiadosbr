@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Dosis', sans-serif;
+}
+header{
+    background-color: #008015;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+header img {
+    width: 60px;
+    margin-top: 5px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+header ul li + li {
+    margin-left: 24px;
+}
+.li12{
+  padding: 10px;
+}
+.li3 {
+  border-radius: 25px;
+  background: #4D7AA1;
+  padding: 10px;
+  width: 200px; 
+  height: 40px; 
+  text-align: center;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+header a:hover{
+  color:yellow
+}
+.di1 {
+  align-items: center;
+}
+body {
+background-IMAGE: url('https://www.folhadelondrina.com.br/img/inline/3180000/0x1200/Refugiados-ucranianos-desembarcam-no-Brasil-e-segu0318097000202203181236.webp?fallback=https%3A%2F%2Fwww.folhadelondrina.com.br%2Fimg%2Finline%2F3180000%2FRefugiados-ucranianos-desembarcam-no-Brasil-e-segu0318097000202203181236.jpg%3Fxid%3D5725015&xid=5725015');
+background-repeat: no-repeat;
+ background-size: cover;
+  }
+.area-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#001eff;
+  border-radius: 10px;
+  width: 355px;
+  height: 320px;
+  padding: 35px
+}
+
+
+.login form{
+  display: flex;
+  flex-direction: column;
+   width: 100%;
+}
+
+
+
+.login input{
+  margin-top: 10px;
+  background-color: #008015;
+  padding-left: 10px;
+  color: black;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+}
+
+
+.login img{
+  width: 65px;
+  height: auto;
+}
+
+
+
+input::placeholder{
+  color: #cbd0f7;
+  font-size: 12px;
+}
+
+
+form [type="submit"]{
+  display: block;
+  background-color: #103B65;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+p{
+  color: #cbd0f7;
+}
+
+
+a{
+  color: #5568fe;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+
+.criar-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.criando-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#001eff;
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  padding: 35px
+}
+
+
+
+.criando-login form{
+  display: flex;
+  flex-direction: column;
+   width: 100%;
+}
+
+
+
+.criando-login input{
+  margin-top: 10px;
+  background-color: #008015;
+  padding-left: 10px;
+  color: black;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+}
+
+
+
+.criando-login img{
+  width: 70px;
+  height: auto;
+}
+
+
+
+form [type="submit"]{
+  display: block;
+  background-color: yellow;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.c4{
+  color: yellow
+}
+
